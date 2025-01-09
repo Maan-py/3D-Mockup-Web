@@ -1,3 +1,4 @@
+
 const RightSection = ({ setColor, setModel }) => {
   return (
     <div className="text-white mr-5 basis-1/4 p-10">
@@ -17,6 +18,12 @@ const RightSection = ({ setColor, setModel }) => {
         </button>
         <button onClick={() => setModel("window")} className="w-12 h-12 bg-slate-500 border-2 border-white">
           <img src="img/window.PNG" alt="window" className="w-12 h-12" />
+        </button>
+        <button onClick={() => setModel("window2")} className="w-12 h-12 bg-slate-500 border-2 border-white">
+          <img src="img/window2.PNG" alt="window" className="w-12 h-12" />
+        </button>
+        <button onClick={() => setModel("picture window")} className="w-12 h-12 bg-slate-500 border-2 border-white">
+          <img src="img/picture window.PNG" alt="window" className="w-12 h-12" />
         </button>
       </div>
     </div>
